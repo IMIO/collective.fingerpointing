@@ -2,6 +2,7 @@
 from .genericsetup_logger import profile_imports_logger  # noqa: F401
 from .lifecycle_logger import lifecycle_logger  # noqa: F401
 from .pas_logger import pas_logger  # noqa: F401
+from .usergroup_logger import usergroup_logger  # noqa: F401
 from .registry_logger import registry_logger  # noqa: F401
 from .workflow_logger import workflow_logger  # noqa: F401
 

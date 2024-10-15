@@ -28,6 +28,16 @@
       handler=".pas_logger"
       />
 
+  <subscriber
+      for="Products.PluggableAuthService.interfaces.events.IPrincipalAddedToGroupEvent"
+      handler=".usergroup_logger"
+      />
+
+  <subscriber
+      for="Products.PluggableAuthService.interfaces.events.IPrincipalRemovedFromGroupEvent"
+      handler=".usergroup_logger"
+      />
+
   <!-- Archetypes -->
   <subscriber
       zcml:condition="installed Products.Archetypes"

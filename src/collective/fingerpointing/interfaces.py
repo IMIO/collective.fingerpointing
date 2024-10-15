@@ -55,3 +55,10 @@ class IFingerPointingSettings(Interface):
             u'log events like content editing checkouts and checkins.'),
         default=True,
     )
+
+    audit_user_group_attribution = schema.Bool(
+        title=_(u'Audit User Group Attribution?'),
+        description=_(
+            u'log events like user group modification'),
+        default=True,
+    )
